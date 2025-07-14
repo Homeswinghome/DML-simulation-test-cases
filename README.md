@@ -5,8 +5,10 @@ Here are files to test DML simulators.
 
 For each test cases, 3 files are provided :
 * XXXX.txt : case parameters (see below)
-* EFR_XXXX.txt : SPL at 1m measured with REW
+* EFR_XXXX.txt : SPL at 1m measured with REW (panel in open back condition)
 * Z_XXXX.txt : electrical impedance measured with REW
+
+** Warning : the SPL are from indoor measurements. The measurements were checked free of room reflection before 5ms (200Hz).**
 
 ## Test cases
 
