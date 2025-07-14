@@ -1,0 +1,25 @@
+[testcase]
+CASETITLE = PMMA 3.5mm FFFF 42x30cm
+
+[boundary_conditions]
+BCOND = FFFF
+
+[plate]
+LXMM = 300
+LYMM = 420
+H = 0.0035
+
+[material]
+EX = 4.7e9
+EY = 4.7e9
+GXY = 1.715e9
+RHO = 1175
+NUX = 0.37
+NUY = 0.37
+ZETAMD = 0.051
+
+[exciter]
+EXTMODEL = DAEX25VT4
+POSX = 0.5
+POSY = 0.5
+

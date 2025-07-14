@@ -1,0 +1,25 @@
+[testcase]
+CASETITLE = poplar plywood 5.15mm 585x407mm
+
+[boundary_conditions]
+BCOND = SSSS
+
+[plate]
+LXMM = 407
+LYMM = 585
+H = 0.00515
+
+[material]
+EX = 6.9e9
+EY = 5.9e9
+GXY = .57e9
+RHO = 522
+NUX = 0.058
+NUY = 0.05
+ZETAMD = 0.0125
+
+[exciter]
+EXTMODEL = DAEX25VT4
+POSX = 0.4
+POSY = 0.4
+

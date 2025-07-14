@@ -1,0 +1,25 @@
+[testcase]
+CASETITLE = sanded EPS 12.55mm 582x406mm
+
+[boundary_conditions]
+BCOND = FFFF
+
+[plate]
+LXMM = 400
+LYMM = 580
+H = 0.01255
+
+[material]
+EX = 28e6
+EY = 28e6
+GXY = 11.7e6
+RHO = 42.8
+NUX = 0.2
+NUY = 0.2
+ZETAMD = 0.0051
+
+[exciter]
+EXTMODEL = DAEX25VT4
+POSX = 0.5
+POSY = 0.5
+
