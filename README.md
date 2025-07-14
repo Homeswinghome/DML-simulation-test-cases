@@ -8,7 +8,7 @@ For each test cases, 3 files are provided :
 * EFR_XXXX.txt : SPL at 1m measured with REW (panel in open back condition)
 * Z_XXXX.txt : electrical impedance measured with REW
 
-** Warning : the SPL are from indoor measurements. The measurements were checked free of room reflection before 5ms (200Hz).**
+**Warning : the SPL are from indoor measurements. The measurements were checked free of room reflection before 5ms (200Hz).**
 
 ## Test cases
 
